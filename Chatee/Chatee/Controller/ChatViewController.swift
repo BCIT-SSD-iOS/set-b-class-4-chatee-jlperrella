@@ -9,10 +9,11 @@
 import UIKit
 import Firebase
 
-class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
 
   @IBOutlet weak var tableView: UITableView!
   @IBOutlet weak var textField: UITextField!
+  @IBOutlet weak var heightConstraint: NSLayoutConstraint!
   
   @IBAction func sendButton(_ sender: UIButton) {
     if let text = textField.text {
@@ -43,8 +44,13 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     tableView.delegate = self
     tableView.dataSource = self
     
+    textField.delegate = self
+    
     // register our custom cell xib
     tableView.register(UINib(nibName: "MessageCell", bundle: nil) , forCellReuseIdentifier: "messageCell")
+    
+    let tapGesture = UITapGestureRecognizer(target: self, action: #selector (tableViewTapped))
+    tableView.addGestureRecognizer(tapGesture)
     
     getMessages()
   }
@@ -106,5 +112,24 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.scrollToBottom()
       }
     }
+  }
+  
+  func textFieldDidBeginEditing(_ textField: UITextField) {
+    UIView.animate(withDuration: 0.5) {
+      self.heightConstraint.constant = 360
+      self.view.layoutIfNeeded()
+      self.scrollToBottom()
+    }
+  }
+  func textFieldDidEndEditing(_ textField: UITextField) {
+    UIView.animate(withDuration: 0.5) {
+      self.heightConstraint.constant = 100
+      self.view.layoutIfNeeded()
+      self.scrollToBottom()
+    }
+  }
+  
+  @objc func tableViewTapped() {
+    textField.endEditing(true)
   }
 }
