@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		E87D7E9422318660005B1C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87D7E9322318660005B1C20 /* AppDelegate.swift */; };
-		E87D7E9622318660005B1C20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87D7E9522318660005B1C20 /* ViewController.swift */; };
 		E87D7E9922318660005B1C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87D7E9722318660005B1C20 /* Main.storyboard */; };
 		E87D7E9B22318661005B1C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87D7E9A22318661005B1C20 /* Assets.xcassets */; };
 		E87D7E9E22318661005B1C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87D7E9C22318661005B1C20 /* LaunchScreen.storyboard */; };
+		E87D7EA822318DC9005B1C20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E87D7EA722318DC9005B1C20 /* GoogleService-Info.plist */; };
+		E8FB4D7322319FE400B8A65D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB4D7222319FE400B8A65D /* WelcomeViewController.swift */; };
+		E8FB4D752231AB7600B8A65D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB4D742231AB7600B8A65D /* LoginViewController.swift */; };
+		E8FB4D772231AF6200B8A65D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB4D762231AF6200B8A65D /* RegisterViewController.swift */; };
+		E8FB4D792231C5A700B8A65D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB4D782231C5A700B8A65D /* ChatViewController.swift */; };
+		E8FB4D822231CE1800B8A65D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB4D812231CE1800B8A65D /* MessageCell.swift */; };
+		E8FB4D842231CE2400B8A65D /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FB4D832231CE2300B8A65D /* MessageCell.xib */; };
+		E8FB4D862231D23300B8A65D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB4D852231D23300B8A65D /* Message.swift */; };
+		F6820442A749F4EB4D4655DE /* Pods_Chatee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A543B503ADE07E76959A56E6 /* Pods_Chatee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283C598F016708D96EFA7929 /* Pods-Chatee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatee.release.xcconfig"; path = "Target Support Files/Pods-Chatee/Pods-Chatee.release.xcconfig"; sourceTree = "<group>"; };
+		A543B503ADE07E76959A56E6 /* Pods_Chatee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDA5894A3DC09FBE9161D53 /* Pods-Chatee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatee.debug.xcconfig"; path = "Target Support Files/Pods-Chatee/Pods-Chatee.debug.xcconfig"; sourceTree = "<group>"; };
 		E87D7E9022318660005B1C20 /* Chatee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87D7E9322318660005B1C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E87D7E9522318660005B1C20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E87D7E9822318660005B1C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E87D7E9A22318661005B1C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87D7E9D22318661005B1C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87D7E9F22318661005B1C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87D7EA722318DC9005B1C20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8FB4D7222319FE400B8A65D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E8FB4D742231AB7600B8A65D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E8FB4D762231AF6200B8A65D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E8FB4D782231C5A700B8A65D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E8FB4D812231CE1800B8A65D /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		E8FB4D832231CE2300B8A65D /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		E8FB4D852231D23300B8A65D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6820442A749F4EB4D4655DE /* Pods_Chatee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C418305CC4796C4A774347A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA5894A3DC09FBE9161D53 /* Pods-Chatee.debug.xcconfig */,
+				283C598F016708D96EFA7929 /* Pods-Chatee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E87D7E8722318660005B1C20 = {
 			isa = PBXGroup;
 			children = (
 				E87D7E9222318660005B1C20 /* Chatee */,
 				E87D7E9122318660005B1C20 /* Products */,
+				C418305CC4796C4A774347A3 /* Pods */,
+				F54652E7A4C865A60307340E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,53 @@
 		E87D7E9222318660005B1C20 /* Chatee */ = {
 			isa = PBXGroup;
 			children = (
-				E87D7E9322318660005B1C20 /* AppDelegate.swift */,
-				E87D7E9522318660005B1C20 /* ViewController.swift */,
-				E87D7E9722318660005B1C20 /* Main.storyboard */,
+				E8FB4D802231CD8B00B8A65D /* View */,
+				E8FB4D7F2231CD7F00B8A65D /* Model */,
+				E8FB4D7E2231CD7600B8A65D /* Controller */,
 				E87D7E9A22318661005B1C20 /* Assets.xcassets */,
-				E87D7E9C22318661005B1C20 /* LaunchScreen.storyboard */,
 				E87D7E9F22318661005B1C20 /* Info.plist */,
+				E87D7EA722318DC9005B1C20 /* GoogleService-Info.plist */,
 			);
 			path = Chatee;
+			sourceTree = "<group>";
+		};
+		E8FB4D7E2231CD7600B8A65D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E87D7E9322318660005B1C20 /* AppDelegate.swift */,
+				E8FB4D7222319FE400B8A65D /* WelcomeViewController.swift */,
+				E8FB4D782231C5A700B8A65D /* ChatViewController.swift */,
+				E8FB4D762231AF6200B8A65D /* RegisterViewController.swift */,
+				E8FB4D742231AB7600B8A65D /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8FB4D7F2231CD7F00B8A65D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB4D852231D23300B8A65D /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8FB4D802231CD8B00B8A65D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E87D7E9C22318661005B1C20 /* LaunchScreen.storyboard */,
+				E87D7E9722318660005B1C20 /* Main.storyboard */,
+				E8FB4D832231CE2300B8A65D /* MessageCell.xib */,
+				E8FB4D812231CE1800B8A65D /* MessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F54652E7A4C865A60307340E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A543B503ADE07E76959A56E6 /* Pods_Chatee.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87D7EA222318661005B1C20 /* Build configuration list for PBXNativeTarget "Chatee" */;
 			buildPhases = (
+				3159E024FC3C55106AAE4ABC /* [CP] Check Pods Manifest.lock */,
 				E87D7E8C22318660005B1C20 /* Sources */,
 				E87D7E8D22318660005B1C20 /* Frameworks */,
 				E87D7E8E22318660005B1C20 /* Resources */,
+				2AC989FCA90C4DDA67161C35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,7 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB4D842231CE2400B8A65D /* MessageCell.xib in Resources */,
 				E87D7E9E22318661005B1C20 /* LaunchScreen.storyboard in Resources */,
+				E87D7EA822318DC9005B1C20 /* GoogleService-Info.plist in Resources */,
 				E87D7E9B22318661005B1C20 /* Assets.xcassets in Resources */,
 				E87D7E9922318660005B1C20 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +203,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AC989FCA90C4DDA67161C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatee/Pods-Chatee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chatee/Pods-Chatee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3159E024FC3C55106AAE4ABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E87D7E8C22318660005B1C20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87D7E9622318660005B1C20 /* ViewController.swift in Sources */,
+				E8FB4D752231AB7600B8A65D /* LoginViewController.swift in Sources */,
+				E8FB4D7322319FE400B8A65D /* WelcomeViewController.swift in Sources */,
 				E87D7E9422318660005B1C20 /* AppDelegate.swift in Sources */,
+				E8FB4D792231C5A700B8A65D /* ChatViewController.swift in Sources */,
+				E8FB4D772231AF6200B8A65D /* RegisterViewController.swift in Sources */,
+				E8FB4D822231CE1800B8A65D /* MessageCell.swift in Sources */,
+				E8FB4D862231D23300B8A65D /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +411,7 @@
 		};
 		E87D7EA322318661005B1C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDA5894A3DC09FBE9161D53 /* Pods-Chatee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +429,7 @@
 		};
 		E87D7EA422318661005B1C20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283C598F016708D96EFA7929 /* Pods-Chatee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
